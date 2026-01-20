@@ -3,15 +3,14 @@ import Button from "./components/Button.jsx"
 function App() {
 
   return (
-    <>
-<<<<<<< HEAD
-      <h1>Landing page vianet</h1>
-      <p>i love coding kkkk</p>
-=======
+    <div className="bg-blue-950">
+    
       <Button variant="primary">Primary Button</Button>
-      <Button variant="secundary">Secundary Button</Button>
->>>>>>> feature-button
-    </>
+    <Button variant="secundary">Secundary Button</Button>
+    <Button> botao 3</Button>
+      
+     
+    </div>
   )
 }
 

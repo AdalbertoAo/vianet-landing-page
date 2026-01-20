@@ -1,12 +1,15 @@
-const variant = {
-    primary: "bg-[#0693e3] text-white w-full h-",
-    secundary: "bg-gray-500 text-white",
+import clsx from "clsx"
+
+const style = {
+    primary: clsx("bg-[#0693e3]"),
+    secundary: clsx("border border- bg-none")
   }
 
-function Button({children, variant}) {
-  
+function Button({children, variant = 'primary'}) {
+
   return (
-    <button className={`${variant == 'primary' ? variant.primary : variant.secundary} `}>
+    <button className={`${variant == 'primary' ? style.primary : style.secundary} 
+    cursor-pointer px-6 py-3 font-semibold text-base rounded-lg text-white`}>
 
       {children}
       </button>
