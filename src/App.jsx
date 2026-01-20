@@ -1,10 +1,11 @@
-
+import Button from "./components/Button.jsx"
 
 function App() {
 
   return (
     <>
-      <h1>Landing page vianet</h1>
+      <Button variant="primary">Primary Button</Button>
+      <Button variant="secundary">Secundary Button</Button>
     </>
   )
 }
