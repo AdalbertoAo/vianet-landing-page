@@ -11,11 +11,8 @@ function App() {
 
     <div className="bg-blue-950">
     
-      <Button variant="primary">Primary Button</Button>
-      <Button variant="secundary">Secundary Button</Button>
       <NavBar />
-      <h1>Landing page vianet</h1>
-      <p>Esta é a landing page da Vianet.</p>
+    
     </div>
 
      
