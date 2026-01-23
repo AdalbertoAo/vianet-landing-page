@@ -1,12 +1,25 @@
 
+<<<<<<< HEAD
+=======
+import Button from "./components/Button.jsx"
+
+import NavBar from "./components/NavBar"
+
+
+>>>>>>> parent of 190da64 (finalizado o navbar)
 
 function App() {
 
   return (
-    <>
-      <h1>Landing page vianet</h1>
-      <p>i love coding kkkk</p>
-    </>
+
+
+    <div className="bg-blue-950">
+    
+      <NavBar />
+    
+    </div>
+
+
   )
 }
 
