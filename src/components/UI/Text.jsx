@@ -2,7 +2,7 @@ import React from 'react'
 import clsx from 'clsx';
 
 const textStyles = {
-  h1: clsx("text-[80px] font-bold leading-tight text-[#ECFAFF] "),
+  h1: clsx("md:text-[80px] text-5xl font-bold leading-tight text-center md:text-start text-[#ECFAFF] "),
  
   p: clsx("text-xl font-normal leading-relaxed text-[#ECFAFF] "),
   span: "text-base",
