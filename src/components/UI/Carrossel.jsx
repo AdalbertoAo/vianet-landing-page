@@ -15,7 +15,7 @@ export default function Carrossel() {
     cssEase: "linear"
   };
   return (
-    <div class="">
+    <div className="">
       <Slider {...settings}>
         <div> 
           <img src="public\assets\cropped-nectar-logo-1 1.svg"/>
